@@ -1,0 +1,25 @@
+.code-snippet .code-snippet-header {
+  background-color: #61656b;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.code-snippet .code-snippet-header p {
+  margin: 0;
+}
+
+.code-snippet pre {
+  margin: 0;
+  background-color: #393e46;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.code-snippet code {
+  font-family: "Courier New", Courier, monospace;
+  color: #15f5ba;
+}

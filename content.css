@@ -1,0 +1,11 @@
+.content-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-inner {
+    width: 70vw;
+    background-color: rgba(7, 25, 82, 0.1);
+    padding-left:20px;
+    padding-right: 20px;
+  }

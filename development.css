@@ -1,0 +1,8 @@
+.development-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .development-inner {
+    width: 70vw;
+  }

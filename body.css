@@ -1,0 +1,4 @@
+.body {
+/* 100 VH min header hight min footer hight */
+  min-height: calc(100vh - 80px - 60px);
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="home_content.css" />
+    <link rel="stylesheet" href="development.css" />
+    <script src="global.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-container">
+        <div class="nav-bar-left">
+            <a href="./index.html">
+                <img src="home_icon.svg" alt="" class="home-icon" />
+              </a>
+        </div>
+        <div class="nav-bar-right">
+          <a href="./index.html">Home</a>
+          <a href="./content.html">Content</a>
+          <a href="./development.html">Development</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="development-content">
+        <div class="development-inner">
+          <h1>HTML (HyperText Markup Language)</h1>
+          <p>
+            HTML is the standard markup language used to create web pages. It
+            structures the content on the web. Here are some key points about
+            HTML:
+          </p>
+          <ol>
+            <li>
+              <p><strong>Elements and Tags:</strong></p>
+              <ul>
+                <li>
+                  <p>
+                    HTML uses tags to define elements. Each element usually has
+                    an opening tag and a closing tag (e.g.,
+                    <strong class="strong-color">`&ltp&gt&lt/p&gt`</strong> for
+                    paragraphs).
+                  </p>
+                </li>
+                <li>
+                  Tags can have attributes that provide additional information
+                  about the element (e.g.,
+                  <strong class="strong-color"
+                    >&lta href="https://www.example.com">Link&lt/a&gt</strong
+                  >).
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p><strong>Basic Structure:</strong></p>
+              <div>
+                <div class="code-snippet">
+                  <div class="code-snippet-header">
+                    <p>html</p>
+                  </div>
+                  <pre><code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                      &lt;head&gt;
+                        &lt;title&gt;Page Title&lt;/title&gt;
+                      &lt;/head&gt;
+                      &lt;body&gt;
+                        &lt;h1&gt;This is a Heading&lt;/h1&gt;
+                        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                      &lt;/body&gt;
+                    &lt;/html&gt;
+                        </code></pre>
+                </div>
+                <ul>
+                  <li>
+                    <p>
+                      The `<strong class="strong-color"
+                        >&lt!DOCTYPE html&gt</strong
+                      >` declaration defines the document type.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The `<strong class="strong-color">&lthtml&gt</strong>`
+                      element is the root of an HTML document. .
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The `<strong class="strong-color">&lthead&gt</strong>`
+                      contains meta-information about the document.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The `<strong class="strong-color">&ltbody&gt</strong>`
+                      contains the content of the document.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><strong>Common Tags:</strong>
+                <ul>
+                    <li>
+                      <p>
+                        Headings: `<strong class="strong-color">&lth1&gt</strong>' to '<strong class="strong-color">&lth6&gt</strong>`
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Paragraphs:  `<strong class="strong-color">&ltp&gt</strong>`
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Links: `<strong class="strong-color">&lta&gt</strong>`
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Images: `<strong class="strong-color">&ltimg&gt</strong>`
+                      </p>
+                    </li>
+                    <li>
+                        <p>
+                            Lists: `<strong class="strong-color">&ltul&gt</strong>`, `<strong class="strong-color">&ltol&gt</strong>`, `<strong class="strong-color">&ltli&gt</strong>`
+                        </p>
+                      </li>
+                  </ul>
+                </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="development-content">
+        <div class="development-inner">
+          <h1>CSS (Cascading Style Sheets)</h1>
+          <p>
+            CSS is used to style and layout web pages. It enhances the presentation of HTML elements. Here are some key points about CSS:
+          </p>
+          <ol>
+            <li>
+              <p><strong>Selectors and Properties:</strong></p>
+              <ul>
+                <li>
+                  <p>
+
+                    Selectors specify which HTML elements to style (e.g., <strong class="strong-color">p</strong> for paragraphs, <strong class="strong-color">.class</strong> for class, <strong class="strong-color">#id</strong> for ID).
+                  </p>
+                </li>
+                <li>
+                    Properties define what aspect of the selected elements to style (e.g., <strong class="strong-color">color</strong>, <strong class="strong-color">font-size</strong>, <strong class="strong-color">margin</strong>).
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p><strong>Basic Syntax:</strong></p>
+              <div>
+                <div class="code-snippet">
+                  <div class="code-snippet-header">
+                    <p>css</p>
+                  </div>
+                  <pre><code>
+                    p {
+                      color: blue;
+                      font-size: 16px;
+                    }
+                    .class-name {
+                      margin: 20px;
+                      padding: 10px;
+                    }
+                    #id-name {
+                      background-color: yellow;
+                    }
+                        </code></pre>
+                </div>
+                <ul>
+                  <li>
+                    <p>
+                        The selector (<strong class="strong-color">p</strong>, <strong class="strong-color">.class-name</strong>, <strong class="strong-color">#id-name</strong>) is followed by a block of styles enclosed in <strong class="strong-color">{}</strong>.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                        Inside the block, each property-value pair ends with a semicolon (<strong class="strong-color">;</strong>).
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><strong>Including CSS in HTML:</strong>
+                <ul>
+                    <li>
+                      <p>
+                        Inline: '<strong class="strong-color">&ltp style="color: blue;"&gtThis is a blue paragraph.&lt/p></strong>'
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Internal: Within a <strong class="strong-color">&ltstyle></strong> tag in the <strong class="strong-color">&lthead></strong> section.
+                      </p>
+                    </li>
+                    
+                    <div class="code-snippet">
+                        <div class="code-snippet-header">
+                          <p>html</p>
+                        </div>
+                        <pre><code>
+                            &lt;style&gt;
+                              p { color: blue; }
+                            &lt;/style&gt;
+                                </code></pre>
+                      </div>
+                      <li>
+                        <p>
+                            External: Using a separate CSS file linked in the '<strong class="strong-color">&lthead></strong>' section.
+                        </p>
+                      </li>
+                      
+                      <div class="code-snippet">
+                          <div class="code-snippet-header">
+                            <p>html</p>
+                          </div>
+                          <pre><code>
+                            &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+                                </code></pre>
+                        </div>
+                  </ul>
+                </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="development-content">
+        <div class="development-inner">
+          <h1>JavaScript</h1>
+          <p>
+            JavaScript is a programming language that adds interactivity and dynamic behavior to web pages. Here are some key points about JavaScript:
+          </p>
+          <ol>
+            <li>
+              <p><strong>Basics:</strong></p>
+              <ul>
+                <li>
+                  <p>
+
+                    JavaScript can manipulate the DOM (Document Object Model), handle events, and perform calculations.
+                  </p>
+                </li>
+                <li>
+                    It is executed in the browser.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p><strong>Basic Syntax:</strong></p>
+              <div>
+                <div class="code-snippet">
+                  <div class="code-snippet-header">
+                    <p>javascript</p>
+                  </div>
+                  <pre><code>
+                    // Variables
+                    var x = 5;
+                    let y = 10;
+                    const z = 15;
+                    
+                    // Functions
+                    function add(a, b) {
+                      return a + b;
+                    }
+                    
+                    // Event Handling
+                    document.getElementById("myButton").addEventListener("click", function() {
+                      alert("Button was clicked!");
+                    });
+                        </code></pre>
+                </div>
+              </div>
+            </li>
+            <li style="margin-top:10px;"><strong>Including JavaScript in HTML:</strong>
+                <ul>
+                    <li>
+                      <p>
+                        Inline: '<strong class="strong-color">&ltbutton onclick="alert('Hello!')">Click Me&lt/button></strong>'.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Internal: Within a <strong class="strong-color">&ltscript></strong> tag in the HTML file.
+                      </p>
+                    </li>
+                    
+                    <div class="code-snippet">
+                        <div class="code-snippet-header">
+                          <p>html</p>
+                        </div>
+                        <pre><code>
+                            &lt;script&gt;
+                              alert(&#39;Hello, World!&#39;);
+                            &lt;/script&gt;
+                                </code></pre>
+                      </div>
+                      <li>
+                        <p>
+                            External: Using a separate JavaScript file linked in the HTML file.
+                        </p>
+                      </li>
+                      
+                      <div class="code-snippet">
+                          <div class="code-snippet-header">
+                            <p>html</p>
+                          </div>
+                          <pre><code>
+                            &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
+                                </code></pre>
+                        </div>
+                  </ul>
+                </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="development-content">
+        <div class="development-inner">
+          <h1>Putting It All Together</h1>
+          <p>
+            Here’s a simple example that combines HTML, CSS, and JavaScript:
+          </p>
+          <div class="code-snippet">
+            <div class="code-snippet-header">
+              <p>html</p>
+            </div>
+            <pre><code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;head&gt;
+                  &lt;title&gt;My Web Page&lt;/title&gt;
+                  &lt;style&gt;
+                    body {
+                      font-family: Arial, sans-serif;
+                    }
+                    .container {
+                      margin: 50px;
+                    }
+                    .btn {
+                      background-color: blue;
+                      color: white;
+                      padding: 10px 20px;
+                      border: none;
+                      cursor: pointer;
+                    }
+                  &lt;/style&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                  &lt;div class="container"&gt;
+                    &lt;h1&gt;Welcome to My Web Page&lt;/h1&gt;
+                    &lt;p id="greeting"&gt;Hello, World!&lt;/p&gt;
+                    &lt;button class="btn" onclick="changeGreeting()"&gt;Click Me&lt;/button&gt;
+                  &lt;/div&gt;
+                
+                  &lt;script&gt;
+                    function changeGreeting() {
+                      document.getElementById('greeting').textContent = 'You clicked the button!';
+                    }
+                  &lt;/script&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                    </code></pre>
+          </div>
+          <p>
+            This example demonstrates how HTML structures the content, CSS styles it, and JavaScript adds interactivity.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span id="footer-copyright">Test</span>
+    </div>
+  </body>
+</html>

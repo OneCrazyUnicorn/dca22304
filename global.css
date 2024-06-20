@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #F0F3FF;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.button-default {
+  background-color: #071952;
+  color: #15F5BA;
+  padding: 15px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.strong-color {
+    color: #071952;
+  }
